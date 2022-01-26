@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="github proxy v2ray cli">
+        
+        <title>github cli</title>
+        <link rel="stylesheet" href="/css/styles.css">
+	</head>
+	<body>
+		<div id="main">
+			<h5>github cli</h5> 
+		</div>
+
+        <h4>v2rayN Port</h4>
+        <p>git config https.proxy 'socks5://127.0.0.1:10808'</p>
+        <p>git push</p>
+        <code>
+            <span>
+                // 查看当前代理设置
+                git config --global http.proxy
+                git config --global https.proxy
+                 
+                // 设置当前代理为 http://127.0.0.1:1080 或 socket5://127.0.0.1:1080
+                git config --global http.proxy 'http://127.0.0.1:1080'
+                git config --global https.proxy 'http://127.0.0.1:1080'
+                 
+                git config --global http.proxy 'socks5://127.0.0.1:1080'
+                git config --global https.proxy 'socks5://127.0.0.1:1080'
+                 
+                // 删除 proxy
+                git config --global --unset http.proxy
+                git config --global --unset https.proxy
+            </span>
+        </code>
+
+
+	</body>
+</html>
