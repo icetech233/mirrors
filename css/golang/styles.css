@@ -4199,8 +4199,9 @@ a#start .desc {
   width: 17.5rem;
 }
 table.downloadtable {
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  margin: auto;
   border-collapse: collapse;
 }
 table.downloadtable tr {
