@@ -1,0 +1,11 @@
+
+
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ /extensions/markdown-math/preview-styles/index.css
+ *--------------------------------------------------------------------------------------------*/
+
+ .katex-error {
+	color: var(--vscode-editorError-foreground);
+}
